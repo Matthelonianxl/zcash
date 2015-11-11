@@ -166,10 +166,13 @@ public:
                     CNullifiersMap& mapSaplingNullifiers)
     {
         for (CCoinsMap::iterator it = mapCoins.begin(); it != mapCoins.end(); ) {
-            map_[it->first] = it->second.coins;
-            if (it->second.coins.IsPruned() && insecure_rand() % 3 == 0) {
-                // Randomly delete empty entries on write.
-                map_.erase(it->first);
+            if (it->second.flags & CCoinsCacheEntry::DIRTY) {
+                // Same optimization used in CCoinsViewDB is to only write dirty entries.
+                map_[it->first] = it->second.coins;
+                if (it->second.coins.IsPruned() && insecure_rand() % 3 == 0) {
+                    // Randomly delete empty entries on write.
+                    map_.erase(it->first);
+                }
             }
             mapCoins.erase(it++);
         }
@@ -180,10 +183,10 @@ public:
         BatchWriteNullifiers(mapSproutNullifiers, mapSproutNullifiers_);
         BatchWriteNullifiers(mapSaplingNullifiers, mapSaplingNullifiers_);
 
-        mapCoins.clear();
         mapSproutAnchors.clear();
         mapSaplingAnchors.clear();
-        hashBestBlock_ = hashBlock;
+        if (!hashBlock.IsNull())
+            hashBestBlock_ = hashBlock;
         hashBestSproutAnchor_ = hashSproutAnchor;
         hashBestSaplingAnchor_ = hashSaplingAnchor;
         return true;
