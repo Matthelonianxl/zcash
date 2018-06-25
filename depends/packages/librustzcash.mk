@@ -8,15 +8,21 @@ $(package)_git_commit=f5d2afb4eabac29b1b1cc860d66e45a5b48b4f88
 $(package)_dependencies=rust $(rust_crates)
 $(package)_patches=cargo.config
 
+$(package)_rust_target=$(if $(rust_rust_target_$(canonical_host)),$(rust_rust_target_$(canonical_host)),$(canonical_host))
+
 ifeq ($(host_os),mingw32)
 $(package)_library_file=target/x86_64-pc-windows-gnu/release/rustzcash.lib
+else ifneq ($(canonical_host),$(build))
+$(package)_library_file=target/$($(package)_rust_target)/release/librustzcash.a
 else
 $(package)_library_file=target/release/librustzcash.a
 endif
 
 define $(package)_set_vars
 $(package)_build_opts=--frozen --release
-$(package)_build_opts_mingw32=--target=x86_64-pc-windows-gnu
+ifneq ($(canonical_host),$(build))
+$(package)_build_opts+=--target=$($(package)_rust_target)
+endif
 endef
 
 define $(package)_preprocess_cmds
