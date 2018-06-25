@@ -11,6 +11,7 @@ $(package)_sha256_hash_darwin=5d7a70ed4701fe9410041c1eea025c95cad97e5b3d8acc4642
 $(package)_rust_target_x86_64-w64-mingw32=x86_64-pc-windows-gnu
 
 # Mapping from Rust targets to SHA-256 hashes
+$(package)_rust_std_sha256_hash_aarch64-unknown-linux-gnu=9ba698f68c5643f53934e1085af40c79c6d1b3bfa01ca6dcdffdc5eec8f44cc0
 $(package)_rust_std_sha256_hash_x86_64-pc-windows-gnu=a89ccd45267fad2ca53e4061a5156731aa26cb0af23e0186c01760ed89055be3
 
 ifneq ($(canonical_host),$(build))
