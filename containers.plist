@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>defaultRepetitionMethodString</key>
+	<string>due-after-completion</string>
+	<key>hierarchicalNameSeparator</key>
+	<string> : </string>
+	<key>orderedProjectIDs</key>
+	<array/>
+	<key>orderedTagIDs</key>
+	<array>
+		<string>bp-twGryvDM</string>
+		<string>k76VdxqyYkx</string>
+		<string>lVJaxPrfVy8</string>
+		<string>b52ngis_CuM</string>
+		<string>cMTc3566PBR</string>
+		<string>h_grLq_tmz8</string>
+		<string>cr-Kgz0PzWm</string>
+		<string>b2tUvvBPO6y</string>
+		<string>bABHURrEov3</string>
+		<string>jCR7SsBvb9F</string>
+		<string>gu1TcTKzfVu</string>
+		<string>caW7PHjFVsV</string>
+	</array>
+	<key>projects</key>
+	<dict/>
+	<key>tags</key>
+	<dict>
+		<key>b2tUvvBPO6y</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-16:57:47 -0700</string>
+			<key>modified</key>
+			<string>2018-09-05-10:33:30 -0700</string>
+			<key>path</key>
+			<string></string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>People</string>
+			<key>uuid</key>
+			<string>b2tUvvBPO6y</string>
+		</dict>
+		<key>b52ngis_CuM</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-15:55:17 -0700</string>
+			<key>modified</key>
+			<string>2018-09-07-17:01:04 -0700</string>
+			<key>path</key>
+			<string></string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Errands</string>
+			<key>uuid</key>
+			<string>b52ngis_CuM</string>
+		</dict>
+		<key>bABHURrEov3</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-16:57:55 -0700</string>
+			<key>modified</key>
+			<string>2018-08-30-16:58:01 -0700</string>
+			<key>path</key>
+			<string>People</string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Parents</string>
+			<key>uuid</key>
+			<string>bABHURrEov3</string>
+		</dict>
+		<key>bp-twGryvDM</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-16:12:26 -0700</string>
+			<key>modified</key>
+			<string>2018-08-30-16:12:26 -0700</string>
+			<key>path</key>
+			<string></string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Home</string>
+			<key>uuid</key>
+			<string>bp-twGryvDM</string>
+		</dict>
+		<key>cMTc3566PBR</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-15:55:26 -0700</string>
+			<key>modified</key>
+			<string>2018-08-30-15:55:56 -0700</string>
+			<key>path</key>
+			<string>Errands</string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Supermarket</string>
+			<key>uuid</key>
+			<string>cMTc3566PBR</string>
+		</dict>
+		<key>caW7PHjFVsV</key>
+		<dict>
+			<key>created</key>
+			<string>2014-03-25-14:24:02 -0700</string>
+			<key>modified</key>
+			<string>2014-03-25-14:24:02 -0700</string>
+			<key>path</key>
+			<string></string>
+			<key>status</key>
+			<string>inactive</string>
+			<key>title</key>
+			<string>Waiting</string>
+			<key>uuid</key>
+			<string>caW7PHjFVsV</string>
+		</dict>
+		<key>cr-Kgz0PzWm</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-15:59:07 -0700</string>
+			<key>modified</key>
+			<string>2018-08-30-15:59:12 -0700</string>
+			<key>path</key>
+			<string>Errands</string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Department Store</string>
+			<key>uuid</key>
+			<string>cr-Kgz0PzWm</string>
+		</dict>
+		<key>gu1TcTKzfVu</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-16:58:07 -0700</string>
+			<key>modified</key>
+			<string>2018-08-30-16:58:09 -0700</string>
+			<key>path</key>
+			<string>People</string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Doctor</string>
+			<key>uuid</key>
+			<string>gu1TcTKzfVu</string>
+		</dict>
+		<key>h_grLq_tmz8</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-15:55:59 -0700</string>
+			<key>modified</key>
+			<string>2018-08-30-15:58:36 -0700</string>
+			<key>path</key>
+			<string>Errands</string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Hardware Store</string>
+			<key>uuid</key>
+			<string>h_grLq_tmz8</string>
+		</dict>
+		<key>jCR7SsBvb9F</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-16:58:03 -0700</string>
+			<key>modified</key>
+			<string>2018-08-30-16:58:06 -0700</string>
+			<key>path</key>
+			<string>People</string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Boss</string>
+			<key>uuid</key>
+			<string>jCR7SsBvb9F</string>
+		</dict>
+		<key>k76VdxqyYkx</key>
+		<dict>
+			<key>created</key>
+			<string>2018-08-30-16:27:50 -0700</string>
+			<key>modified</key>
+			<string>2018-08-30-16:27:50 -0700</string>
+			<key>path</key>
+			<string></string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Office</string>
+			<key>uuid</key>
+			<string>k76VdxqyYkx</string>
+		</dict>
+		<key>lVJaxPrfVy8</key>
+		<dict>
+			<key>created</key>
+			<string>2018-09-07-16:56:55 -0700</string>
+			<key>modified</key>
+			<string>2018-09-07-16:58:32 -0700</string>
+			<key>path</key>
+			<string></string>
+			<key>status</key>
+			<string>active</string>
+			<key>title</key>
+			<string>Phone Calls</string>
+			<key>uuid</key>
+			<string>lVJaxPrfVy8</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
